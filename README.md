@@ -2,7 +2,9 @@
 
 The [Bureau of Transportation Statistics](http://www.bts.gov/) collects information on transportation statistics (duh)--for our purposes they provide information on flight times, passenger (and airframe) loading, and other flight characteristics. This free resource can help us build a model to predict when and where delays will arise and determine which delays are avoidable and which (non-maintenance and non-weather) delays are likely to be unconnceted to structural constraints. 
 
-In order to do this we have to import, parse and otherwise make sense of medium size data (~500,000 rows per month). 
+In order to do this we have to import, parse and otherwise make sense of medium size data (~500,000 rows per month).
+
+At the moment there is no easy programmatic way to download monthly data from bts. Lots of clicking radio buttons and loading dynamically generated pages. 
 
 ## Scripts
 
